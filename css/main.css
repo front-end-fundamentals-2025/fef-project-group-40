@@ -1,0 +1,53 @@
+
+/* MAIN HTML BLOCKS "SETTIGNS" */
+
+body {
+    margin: 0;
+}
+
+/* TEXT ELEMENTS "BASE SETTINGS" */
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    /* puts the div elements on top of each other */
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    margin-top: 0;
+    padding: 1%;
+}
+
+#top-navbar {
+    /* centers logo text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo {
+    font-size: 5vw;
+    color: white;
+}
+
+#navbar-categories {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.navbar-links {
+    color: white;
+}
+
+/* BODY CONTENT */
