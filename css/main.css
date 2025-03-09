@@ -3,6 +3,7 @@
 
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
 }
 
 /* TEXT ELEMENTS "BASE SETTINGS" */
@@ -24,6 +25,8 @@ nav {
     background-color: black;
     margin-top: 0;
     padding: 1%;
+    padding-left: 1rem;
+    padding-right: 1rem; 
 }
 
 #top-navbar {
