@@ -72,3 +72,9 @@ nav {
 .product-image {
     width: 15vw;
 }
+
+.history-images{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
