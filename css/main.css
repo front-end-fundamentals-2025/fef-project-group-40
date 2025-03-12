@@ -3,7 +3,13 @@
 
 body {
     margin: 0;
+    font-size: 1vw;
     font-family: Arial, sans-serif;
+}
+
+main {
+    margin-left: 1rem;
+    margin-right: ;
 }
 
 /* TEXT ELEMENTS "BASE SETTINGS" */
@@ -54,3 +60,11 @@ nav {
 }
 
 /* BODY CONTENT */
+
+.product-page-item-container {
+    margin-top: 15rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
