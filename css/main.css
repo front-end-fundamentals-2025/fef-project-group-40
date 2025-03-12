@@ -43,7 +43,7 @@ nav {
 }
 
 #logo {
-    font-size: 5vw;
+    font-size: 3rem;
     color: white;
 }
 
@@ -57,6 +57,7 @@ nav {
 
 .navbar-links {
     color: white;
+    transition: color 0.3s ease-in-out;
 }
 
 /* BODY CONTENT */
@@ -66,11 +67,15 @@ nav {
     margin-left: 5rem;
     margin-right: 5rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 .product-image {
-    width: 15vw;
+    width: 100%;
+    max-width: 200px; 
+    height: auto;
 }
 
 .history-images{
