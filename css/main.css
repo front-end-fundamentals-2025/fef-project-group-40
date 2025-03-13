@@ -60,6 +60,10 @@ nav {
     padding-right: 3rem;
 }
 
+#shopping-bag-image {
+    width: 15%;
+}
+
 .navbar-links {
     color: white;
     transition: color 0.3s ease-in-out;
@@ -121,7 +125,7 @@ nav {
 }
 
 /* https://www.w3schools.com/css/css3_buttons.asp */
-.add-to-cart-button {
+#add-to-cart-button {
     background-color: #04AA6D;
     border: none;
     color: white;
