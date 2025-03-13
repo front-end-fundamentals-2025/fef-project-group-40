@@ -22,6 +22,10 @@ p {
     margin: 0;
 }
 
+h1 {
+    margin-left: 10%;
+}
+
 /* NAVIGATION BAR */
 
 nav {
@@ -33,6 +37,7 @@ nav {
     padding: 1%;
     padding-left: 1rem;
     padding-right: 1rem; 
+    padding-bottom: 0;
 }
 
 #top-navbar {
@@ -62,6 +67,17 @@ nav {
 
 /* BODY CONTENT */
 
+/* The cover image, to make it fill screen, side to side, somewhat responsive */
+/* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
+.cover-image {
+    display: flex;
+    justify-content: center;
+}
+
+.cover-image img {
+    min-width: 100%;
+}
+
 /* .index-body-content-container {
     display: grid;
     grid-template-areas:
@@ -75,6 +91,8 @@ nav {
 
 #img-shop-categories {
     display: flex;
+    justify-content: center;
+    margin-top: 5vw;
 }
 
 .product-page-item-container {
@@ -97,5 +115,18 @@ nav {
 .history-images{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+/* https://www.w3schools.com/css/css3_buttons.asp */
+.add-to-cart-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 1rem;
+    font-size: 3rem;
+    border-radius: 10%;
+    cursor: pointer;
 }
