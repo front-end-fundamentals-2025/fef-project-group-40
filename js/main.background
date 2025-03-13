@@ -8,5 +8,5 @@ bodyElement.style.backgroundColor = "#a69872";
 
 blackButtonButton.addEventListener("click, function (event) " {
     bodyElement.style.backgroundColor = "##1c1a15";
-});
+    });
     
