@@ -73,10 +73,10 @@ nav {
 
 /* The cover image, to make it fill screen, side to side, somewhat responsive */
 /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
-.cover-image {
+/* .cover-image {
     display: flex;
     justify-content: center;
-}
+} */
 
 .cover-image img {
     min-width: 100%;
@@ -97,6 +97,10 @@ nav {
     display: flex;
     justify-content: center;
     margin-top: 5vw;
+}
+
+.category-image {
+    width: fit-content;
 }
 
 .product-page-item-container {
@@ -124,6 +128,15 @@ nav {
     margin-bottom: 5vw;
 }
 
+.history-image {
+    padding: 3vw;
+}
+
+.history-text {
+    display: grid;
+    justify-content: center;
+}
+
 /* https://www.w3schools.com/css/css3_buttons.asp */
 #button {
     background-color: #04AA6D;
@@ -133,4 +146,25 @@ nav {
     font-size: 3rem;
     border-radius: 10%;
     cursor: pointer;
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 5%;
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+#footer-logo-copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.logo-copyright-text {
+    color: white;
 }

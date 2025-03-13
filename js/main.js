@@ -1,19 +1,22 @@
 const buttonElement = document.getElementById("button");
+
 const cartContainer = document.getElementById("cart-container");
 
 const imgElement = document.createElement("img");
 const h3Element = document.createElement("h3");
 const paragraphElement = document.createElement("p");
 
-cartContainer.appendChild(imgElement);
-cartContainer.appendChild(h3Element);
-cartContainer.appendChild(paragraphElement);
 
-buttonElement.addEventListener("click", function (event) {
-    // imgElement.src = "img/products/gold_ring.png"
-    // h3Element.innerText = "Gold Center Diamond Ring"
-    // paragraphElement.innerText = "399$"
-})
+
+buttonElement.addEventListener("click", function (e) {
+    imgElement.src = "img/products/gold_ring.png"
+    h3Element.innerText = "Gold Center Diamond Ring"
+    paragraphElement.innerText = "399$"
+
+    cartContainer.appendChild(imgElement);
+    cartContainer.appendChild(h3Element);
+    cartContainer.appendChild(paragraphElement);
+});
 
 // i dunno how to do this haha
 // 1. add item to cart: store array thingy
