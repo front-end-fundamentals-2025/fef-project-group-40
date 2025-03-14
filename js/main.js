@@ -112,6 +112,7 @@ const productNameElement = document.getElementById("cart-product-name");
 const productPictureElement = document.getElementById("cart-product-picture");
 const productPriceElement = document.getElementById("cart-product-price");
 
+
 //  Check if the "Add to Cart" button exists before using it
 if (buttonElement) {
     buttonElement.addEventListener("click", function () {
@@ -155,6 +156,6 @@ if (removeButtonElement) {
         // Reset UI
         productNameElement.innerText = "No Items";
         productPriceElement.innerText = "0$";
-        productPictureElement.src = "";
+        productPictureElement.src = "/img/icons/empty-set.png";
     });
 }

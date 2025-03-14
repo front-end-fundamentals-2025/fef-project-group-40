@@ -132,10 +132,6 @@ nav {
     justify-content: center;
 }
 
-/* #cart-container {
-    display: flex;
-} */
-
 /* https://www.w3schools.com/css/css3_buttons.asp */
 #button {
     background-color: #04AA6D;
@@ -155,6 +151,19 @@ nav {
     font-size: 1rem;
     border-radius: 10%;
     cursor: pointer;
+}
+
+#cart-product-picture {
+    width: 5%;
+}
+
+#cart-container {
+    border: 5px black;
+    background-color: rgb(245, 244, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* FOOTER */
