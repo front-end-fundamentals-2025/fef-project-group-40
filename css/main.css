@@ -22,10 +22,6 @@ p {
     margin: 0;
 }
 
-h1 {
-    margin-left: 10%;
-}
-
 /* NAVIGATION BAR */
 
 nav {
@@ -130,6 +126,10 @@ nav {
 .history-text {
     display: grid;
     justify-content: center;
+}
+
+#history-text-container {
+    margin-bottom: 5rem;
 }
 
 /* https://www.w3schools.com/css/css3_buttons.asp */
