@@ -22,8 +22,25 @@ p {
     margin: 0;
 }
 
+
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+/* to make sure footer is in correct placement, */
+
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 10rem;
+}
+
 /* NAVIGATION BAR */
 
+#header {
+    min-height: 70px;
+}
 
 nav {
     /* puts the div elements on top of each other */
@@ -62,11 +79,24 @@ nav {
 
 /* Responsive Layout on the Navigation Bar */
 
+@media screen and (max-width: 520px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+    }
 
+    .navbar-links {
+        margin-left: 2rem;
+    }
+}
 
 
 /* BODY CONTENT */
+/* MAIN AS WELL */
 
+#main {
+    flex: 1;
+}
 
 /* The cover image, to make it fill screen, side to side, somewhat responsive */
 /* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
@@ -144,17 +174,23 @@ nav {
 }
 
 #product-information {
-    background: rgb(245, 244, 244);
-    border-radius: 2%;
-    padding: 1rem;
+    margin-left: 0.2rem;
+    flex: 1;
 }
 
 #button-container {
-    margin: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
 }
 
 #information-container {
-    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; can use flex:1 or this */ 
+    background: rgb(245, 244, 244);
+    border-radius: 2%;
+    padding: 1rem;
 }
 
 /* https://www.w3schools.com/css/css3_buttons.asp */
@@ -195,18 +231,6 @@ nav {
 
 /* FOOTER */
 
-/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
-/* to make sure footer is in correct placement, */
-
-#page-container {
-    position: relative;
-    min-height: 100vh;
-}
-
-#content-wrap {
-    padding-bottom: 10rem;
-}
-
 footer {
     margin-top: 5%;
     background-color: black;
@@ -215,10 +239,7 @@ footer {
 }
 
 #footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 10rem;
+    min-height: 70px;
 }
 
 #footer-logo-copyright {

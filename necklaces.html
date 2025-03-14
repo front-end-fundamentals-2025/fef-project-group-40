@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,93 +8,107 @@
     <link rel="stylesheet" href="css/main.css">
     <script src="js/main.js" defer></script>
 </head>
+
 <body>
-    <section id="#page-container"></section>
-    <header>
-        <nav>
-            <!-- the top & bottom is to separete 2 layers of the navbar, so the logo can be in top half, centered,
+    <section id="page-container">
+        <header id="header">
+            <nav>
+                <!-- the top & bottom is to separete 2 layers of the navbar, so the logo can be in top half, centered,
              and the categories can be on the bottom half, left to right. -->
-             <section id="top-navbar">
-                <a href="/index.html"><p id="logo">Linilda</p></a>
+                <section id="top-navbar">
+                    <a href="/index.html">
+                        <p id="logo">Linilda</p>
+                    </a>
+                </section>
+                <ul id="navbar-categories">
+                    <a class="navbar-links" href="index.html">Home</a>
+                    <a class="navbar-links" href="rings.html">
+                        <li>Rings</li>
+                    </a>
+                    <a class="navbar-links" href="bracelets.html">
+                        <li>Bracelets</li>
+                    </a>
+                    <a class="navbar-links" href="necklaces.html">
+                        <li>Necklaces</li>
+                    </a>
+                    <!-- <a class="navbar-links" href="/earrings.html"><li>Earrings</li></a> -->
+                    <!-- <a class="navbar-links" href="/pendants.html"><li>Pendants</li></a> -->
+                    <a class="navbar-links" href="cart.html">
+                        <li>Shopping Cart</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="cover-image">
+                <img src="img/Untitled-13.png" alt="">
+
+                <section class="necklaces-heading">
+
+                    <h1>Our Special Necklace Collection</h1>
+                    <p>Our designer necklaces are crafted with love and care, ensuring a cruelty-free and sustainable
+                        approach.</p>
+                    <p>We care about ethical sourcing and eco-friendly materials because beauty should never come at the
+                        cost of nature or our environment.</p>
+                    <p>Our special pick of necklaces in All Styles!</p>
+                    <p>Create your own necklace with different pendants! SOON..</p>
+                    <p>Let Your Style Shine..</p>
+                </section>
+
             </section>
-            <ul id="navbar-categories">
-                <a class="navbar-links" href="index.html">Home</a>
-                <a class="navbar-links" href="rings.html"><li>Rings</li></a>
-                <a class="navbar-links" href="bracelets.html"><li>Bracelets</li></a>
-                <a class="navbar-links" href="necklaces.html"><li>Necklaces</li></a>
-                <!-- <a class="navbar-links" href="/earrings.html"><li>Earrings</li></a> -->
-                <!-- <a class="navbar-links" href="/pendants.html"><li>Pendants</li></a> -->
-                <a class="navbar-links" href="cart.html"><li>Shopping Cart</li></a>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="cover-image">
-<img src="img/Untitled-13.png" alt="">
-            
-        <section class="necklaces-heading">
-            
-        <h1>Our Special Necklace Collection</h1>
-        <p>Our designer necklaces are crafted with love and care, ensuring a cruelty-free and sustainable approach.</p>
-        <p>We care about ethical sourcing and eco-friendly materials because beauty should never come at the cost of nature or our environment.</p>
-        <p>Our special pick of necklaces in All Styles!</p>  
-        <p>Create your own necklace with different pendants! SOON..</p>
-        <p>Let Your Style Shine..</p>
-         
+            <section class="product-page-item-container">
+                <a class="product-link-container" href="/product-page.hmtl">
+                    <figure>
+                        <img class="product-image img-zoom" src="img/models/Untitled-8.png" alt="">
+                    </figure>
+                    <p>Diamond Pear Necklace</p>
+                </a>
+                <a class="product-link-container" href="#">
+                    <figure>
+                        <img class="product-image img-zoom"
+                            src="img/models-other-format/Best_Sellers_3_f7c3ba75-adba-4d2c-97d1-0e03dd3c377d_2048x2048.png"
+                            alt="">
+                    </figure>
+                    <p>Gold Minimalist Necklace Set</p>
+                </a>
+                <a class="product-link-container" href="#">
+                    <figure>
+                        <img class="product-image img-zoom"
+                            src="img/models-other-format/f58bc21d-cc26-4918-b3a7-b095437e4416k.jpg" alt="">
+                    </figure>
+                    <p>Bright Gold Necklace Set</p>
+                </a>
+                <a class="product-link-container" href="#">
+                    <figure>
+                        <img class="product-image img-zoom" src="img/models/Untitled-10.png" alt="">
+                    </figure>
+                    <p>Special Silver Necklace Set</p>
+                </a>
+                <a class="product-link-container" href="#">
+                    <figure>
+                        <img class="product-image img-zoom" src="img/models/Untitled-9.png" alt="">
+                    </figure>
+                    <p>Classy Back Necklace</p>
+                </a>
+                <a class="product-link-container" href="#">
+                    <figure>
+                        <img class="product-image img-zoom" src="img/models/Untitled-7.png" alt="">
+                    </figure>
+                    <p>Bohemian Necklace Set</p>
+                </a>
+            </section>
+        </main>
+
+        <footer id="footer">
+            <section id="footer-logo-copyright">
+                <p class="logo-copyright-text">Linilda</p>
+                <P class="logo-copyright-text">Copyright 2025</P>
+            </section>
+
+            <!-- //fake social -->
+            <a href="https://www.instagram.com/fakeprofileacc" target="_blank">Follow us on Instagram!</a>
+        </footer>
     </section>
-            
-</section>
-<section class="product-page-item-container">
-<a class="product-link-container" href="/product-page.hmtl">
-<figure>
-<img class="product-image img-zoom" src="img/models/Untitled-8.png" alt="">
-</figure>
-<p>Diamond Pear Necklace</p>
-</a>
-<a class="product-link-container" href="#">
-<figure>
-    <img class="product-image img-zoom" src="img/models-other-format/Best_Sellers_3_f7c3ba75-adba-4d2c-97d1-0e03dd3c377d_2048x2048.png" alt="">
-</figure>
-<p>Gold Minimalist Necklace Set</p>
-</a>
-<a class="product-link-container" href="#">
-<figure>
-   <img class="product-image img-zoom" src="img/models-other-format/f58bc21d-cc26-4918-b3a7-b095437e4416k.jpg" alt="">
-</figure>
-<p>Bright Gold Necklace Set</p>
-</a>
-<a class="product-link-container" href="#">
-<figure>
-    <img class="product-image img-zoom" src="img/models/Untitled-10.png" alt="">
-    </figure>
-    <p>Special Silver Necklace Set</p>
-</a>
-<a class="product-link-container" href="#">
-    <figure>
-    <img class="product-image img-zoom" src="img/models/Untitled-9.png" alt="">
-   </figure>
-   <p>Classy Back Necklace</p>
-</a>
-<a class="product-link-container" href="#">
-<figure>
-    <img class="product-image img-zoom" src="img/models/Untitled-7.png" alt="">
-    </figure>    
-<p>Bohemian Necklace Set</p>
-</a>
-
-
-</section>
-
-    </main>
-
-    <footer>
-        <section id="footer-logo-copyright">
-            <p class="logo-copyright-text">Linilda</p>
-            <P class="logo-copyright-text">Copyright 2025</P>
-        </section>
-
-        <!-- //fake social -->
-        <a href="https://www.instagram.com/fakeprofileacc" target="_blank">Follow us on Instagram!</a>     
-    </footer>
 </body>
+
 </html>
