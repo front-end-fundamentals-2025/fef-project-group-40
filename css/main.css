@@ -133,17 +133,43 @@ nav {
     margin-bottom: 5rem;
 }
 
+#product-page {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+#gold-ring-product {
+    width: 30%;
+}
+
+#product-information {
+    background: rgb(245, 244, 244);
+    border-radius: 2%;
+    padding: 1rem;
+}
+
+#button-container {
+    margin: 2rem;
+}
+
+#information-container {
+    margin: 1rem;
+}
+
 /* https://www.w3schools.com/css/css3_buttons.asp */
 #button {
+    margin-top: 2rem;
     background-color: #04AA6D;
     border: none;
     color: white;
-    padding: 1rem;
-    font-size: 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
     border-radius: 10%;
     cursor: pointer;
 }
 
+/* https://www.w3schools.com/css/css3_buttons.asp */
 #remove-button {
     background-color: #04AA6D;
     border: none;
